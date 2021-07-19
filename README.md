@@ -14,8 +14,9 @@ SteamVR requires >4GB disk space
 
 
 ## Installation Instructions
-#### 1. [Install the latest VulkanSDK from here.](https://vulkan.lunarg.com/sdk/home#linux)
-   
+#### 1. [Install the latest VulkanSDK.](https://vulkan.lunarg.com/sdk/home#linux)
+
+Or follow the commands below
 Upgrade your system to be current on package updates:
 
 ```bash
@@ -72,7 +73,7 @@ If you have already installed openvr, then reinstalling the old version does not
 
 
 
-#### 5. Vive equipment settings (this part does not seem to be valid anymore)
+#### ~~5. Vive equipment settings (this part does not seem to be valid anymore)~~
    1. Disable the headset requirement and enable a null (simulated) headset:
    
       ```bash
