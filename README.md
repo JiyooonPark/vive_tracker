@@ -156,6 +156,7 @@ bluetooth not available | reboot your computer until it connects correctly
 Initializing looking for your VR hardware | reboot your computer until it connects correctly
 OSError: openvr_api_64: cannot open shared object file: No such file or directory | reinstall openvr
 Import openvr related errors | you have the wrong openvr version. Refer to the [Install openvr] section of the README.md
+error 307 | neglectable
 
 - How to remove steam form ubuntu 
 ```angular2html
