@@ -20,8 +20,8 @@ def get_current_position(msg):
     # print(seconds)
     if seconds % 30 == 0:
 
-        print("x: {:.3f} y: {:.3f} w: {:.3f}".format(linear_x, linear_y, linear_z ))
-        print("x: {:.3f} y: {:.3f} w: {:.3f}".format(angular_x, angular_y, angular_z ))
+        print("x: {:.3f} y: {:.3f} z: {:.3f}".format(linear_x, linear_y, linear_z ))
+        print("x: {:.3f} y: {:.3f} z: {:.3f}".format(angular_x, angular_y, angular_z ))
         print("=======================================================================")
 
     else:
@@ -32,5 +32,5 @@ def get_current_position(msg):
 if __name__=="__main__":
     
     rospy.init_node('print_tracker_pose')
-    odom_sub = rospy.Subscriber('/vive/LHR_BD4ED973_odom', Odometry, get_current_position)
+    odom_sub = rospy.Subscriber('/vive/LHR_2FCD60B0_odom', Odometry, get_current_position)
     rospy.spin()
